@@ -1,0 +1,15 @@
+/* REXX - HERRAMIENTA DE AUDITORIA DE FRAUDES */
+SAY "==============================================="
+SAY "        INSURANCE FRAUD AUDIT REPORT           "
+SAY "==============================================="
+SAY "DATE: 2026-06-20"
+SAY "TOP HIGH-RISK CLAIMS (SIMULADO)"
+SAY "-----------------------------------------------"
+SAY "RANK    CLAIM ID   POLICY ID   AMOUNT    STATUS"
+SAY "-----------------------------------------------"
+SAY "1      CLM0009001  POL0001001   50000.00    UNDER_REVIEW"
+SAY "2      CLM0009014  POL0001022   42000.00    UNDER_REVIEW"
+SAY "3      CLM0009020  POL0001301   38000.00    UNDER_REVIEW"
+SAY "-----------------------------------------------"
+SAY "REXX EXECUTIOM COMPLETED."
+EXIT
