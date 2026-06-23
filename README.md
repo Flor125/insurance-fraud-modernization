@@ -21,16 +21,4 @@ El sistema procesa reclamos de seguros mediante el siguiente flujo "de adentro h
 * **Data & Messaging:** IBM Db2 (Docker), IBM MQ (RabbitMQ Mock en contenedores)
 * **Development:** VS Code, IBM Z Open Editor, GnuCOBOL
 
-## 📸 Execution Evidence (Portfolio Screenshots)
-*(Nota para vos: Acá tenés que agregar las capturas que pide tu checklist)*
-* `[Screenshot 1]` - Petición Postman devolviendo el JSON con el estado `UNDER_REVIEW`.
-* `[Screenshot 2]` - Log del contenedor de mensajería recibiendo el payload de fraude.
-* `[Screenshot 3]` - Código fuente JCL demostrando las sentencias de control de DFSORT (`SORT FIELDS`, `INCLUDE COND`).
-* `[Screenshot 4]` - Terminal mostrando la salida limpia del script REXX con el 'Top 10' de reclamos de alto riesgo.
-
-## 🚀 How to Run (Local Dev Environment)
-1. Levantar la base de datos Db2 local y el contenedor de RabbitMQ.
-2. Compilar el core de validación usando GnuCOBOL:
-   ```bash
-   cobc -x claimval.cbl
-   ./claimval
+## In progress 
