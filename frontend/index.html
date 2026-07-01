@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Reclamos - Mainframe hibrido</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Ingreso de reclamos</h2>
+        <form id="claimForm">
+            <div class="form-group">
+                <label for="policyId">ID de póliza</label>
+                <input type="text" id="policyId" value="POL001001" required>
+            </div>
+            <div class="form-group">
+                <label for="customerId">ID del cliente</label>
+                <input type="text" id="customerId" value="CUS00001" required>
+            </div>
+            <div class="form-group">
+                <label for="claimAmount">Monto reclamado ($)</label>
+                <input type="number" id="claimAmount" step="50000" required>
+            </div>
+            <div class="form-group">
+                <label for="userId">Operador:</label>
+                <input type="text" id="userId" value="OPER001" required>
+            </div>
+            <div class="form-group">
+                <label for="userRole">Rol del operador:</label>
+                <select id="userRole">
+                    <option value="CLAIM_OPERATOR">Operador Básico</option>
+                    <option value="SUPERVISOR">Supervisor</option>
+                </select>
+            </div>
+            <button type="submit">Procesar en Mainframe</button>
+        </form>
+        <div id="terminal-output"></div>
+    </div>
+
+    <script src="./js/script.js" defer></script> 
+</body>
+</html>
